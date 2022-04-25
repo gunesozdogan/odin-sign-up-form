@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>how to construct object</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap"
+            rel="stylesheet"
+        />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-left">
+                <div class="upper">
+                    <h1>Sign Up Form</h1>
+                    <img src="img/odin-lined.png" alt="odin-logo" />
+                    <p>
+                        This sign-up form is fictional and it is prepared as an
+                        assignment from
+                        <a href="https://www.theodinproject.com/"
+                            >Odin Project</a
+                        >
+                    </p>
+                </div>
+                <div class="lower">
+                    <p>
+                        Photo by
+                        <a href="https://unsplash.com/@brokenlenscap"
+                            >Ben Parker</a
+                        >
+                        on <a href="https://unsplash.com/">Unsplash</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-right">
+                <div class="information">
+                    <p>
+                        Your path to success with professional career guiding!
+                    </p>
+                </div>
+                <div class="form">
+                    <form spellcheck="false">
+                        <p>Start Today!</p>
+                        <div class="first-name form-div">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="first_name" />
+                            <span></span>
+                        </div>
+
+                        <div class="last-name form-div">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="last_name" />
+                            <span></span>
+                        </div>
+
+                        <div class="email form-div">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" />
+                            <span></span>
+                        </div>
+
+                        <div class="phone-num form-div">
+                            <label for="phone-num">PHONE NUMBER</label>
+                            <input type="tel" id="phone-num" name="phone_num" />
+                            <span></span>
+                        </div>
+
+                        <div class="password form-div">
+                            <label for="password">PASSWORD</label>
+                            <input
+                                class="password-input"
+                                type="password"
+                                id="password"
+                                name="password"
+                                pattern="/^.{6,}$/"
+                                title="Please enter at least 6 characters"
+                            />
+                            <span class="password-validation-invalid"></span>
+                        </div>
+
+                        <div class="password-confirm form-div">
+                            <label for="password-confirm"
+                                >CONFIRM PASSWORD</label
+                            >
+                            <input
+                                class="confirm-password-input"
+                                type="password"
+                                id="password-confirm"
+                                name="password_confirm"
+                            />
+                            <span
+                                class="password-confirm-validation-invalid"
+                            ></span>
+                        </div>
+                        <div class="sign-up">
+                            <button type="submit" class="create-account-btn">
+                                Create Account
+                            </button>
+                            <p>
+                                Already have an account?
+                                <span
+                                    ><a href="#" class="log-in-btn"
+                                        >Log in</a
+                                    ></span
+                                >
+                            </p>
+                        </div>
+                    </form>
+                    <div class="github-profile">
+                        <a href="https://github.com/gunesozdogan"
+                            >gunesozdogan</a
+                        >
+                        <img src="img/GitHub-Mark-32px.png" alt="github-logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
